@@ -15,13 +15,13 @@ sudo apt install --assume-yes --fix-broken
 sudo DEBIAN_FRONTEND=noninteractive \
 apt install --assume-yes xfce4 desktop-base xfce4-terminal
 sudo bash -c 'echo "exec /etc/X11/Xsession /usr/bin/xfce4-session" > /etc/chrome-remote-desktop-session'  
-sudo apt install --assume-yes xscreensaver gnome-terminal
+sudo apt install --assume-yes xscreensaver
+sudo apt install --assume-yes gnome-terminal
 sudo systemctl disable lightdm.service
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo dpkg --install google-chrome-stable_current_amd64.deb
+sudo apt install --assume-yes nautilus nano
+sudo apt-get update
+sudo apt --assume-yes install firefox brave-browser
 sudo apt install --assume-yes --fix-broken
-sudo apt install nautilus nano -y 
-sudo apt -y install firefox brave-browser
 sudo adduser USER chrome-remote-desktop
 } &> /dev/null &&
 printf "\nSetup Completed " >&2 ||
