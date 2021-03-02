@@ -1,4 +1,4 @@
-<h1 align="center">Get A Temporary Google RDP With Maximum Network Speed</h1>
+<h1 align="center">Get A Temporary Google Remote Desktop With Maximum Network Speed</h1>
 <p align="center">To Test Your Programs Or Anything You Want To Do!</p>
 
 ## Follow These Instructions:
